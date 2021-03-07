@@ -10,7 +10,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
+
 import { db } from '../main'
 
 export default {
