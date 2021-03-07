@@ -10,8 +10,8 @@
                     <div class=""> {{whisper.name}}<span class="mr-auto text-muted"> @{{whisper.uid}}</span></div>
                     <h5 class="card-text"> {{whisper.content}}</h5>
                 </div>
-                <div class="col-2 align-self-center m-0">
-                    <div class="btn btn-outline-primary">!</div>
+                <div class="col-2 align-self-center m-0 p-2">
+                    <div class="btn btn-outline-primary"><fa icon="bell" /></div>
                 </div>
             </div>
         </div>

@@ -12,6 +12,24 @@ Vue.use(IconsPlugin)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {
+  faUser,
+  faSignOutAlt,
+  faEllipsisV,
+  faBell
+} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(
+  faUser,
+  faSignOutAlt,
+  faEllipsisV,
+  faBell
+)
+
+Vue.component('fa', FontAwesomeIcon)
+
 Vue.use(firestorePlugin)
 
 firebase.initializeApp({
